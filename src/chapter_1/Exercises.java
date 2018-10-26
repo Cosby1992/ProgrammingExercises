@@ -8,7 +8,7 @@ public class Exercises {
         /*~~~~~~~~~~~~~~~~~~~~~||~CHAPTER ONE~||~~~~~~~~~~~~~~~~~~~*/
         /*~~~~~~~~~~~~~~~~~~~~~||~~~By Cosby~~||~~~~~~~~~~~~~~~~~~~*/
         /*~~~~~~~~~~~~~~~~~~~~~||~~~~~~~~~~~~~||~~~~~~~~~~~~~~~~~~~*/
-        
+
         // exercise 1.1
         System.out.println("Welcome to Java");
         System.out.println("Welcome to Computer Science");
@@ -48,11 +48,13 @@ public class Exercises {
         System.out.println("Approx. PI = " + (4*(1-(1.0/3)+(1.0/5)-(1.0/7)+(1.0/9)-(1.0/11)+(1.0/13)))+"\n");
 
         // exercise 1.8
+        //Initializing the variable "radius" of the datatype "double" with the value "5,5")
         double radius = 5.5;
 
+        //initializing "perimeter" and "area" variables, with formulas for calculating these
         double perimeter = 2 * radius * Math.PI;
         double area = radius * radius * Math.PI;
-
+        //Printing that shit out right here!!   ↓↓↓↓↓↓↓↓
         System.out.println("The area is = " + area + " The perimeter is = " + perimeter);
 
         // exercise 1.9
@@ -65,6 +67,7 @@ public class Exercises {
         System.out.println("The area is = " + area + " The perimeter is = " + perimeter);
 
         // exercise 1.10
+        //calculating miles per hour with 2 variables
         double time = (45.5/60);
         double distance = (14/1.6);
 
@@ -73,15 +76,18 @@ public class Exercises {
         System.out.println("Miles per hour equals = " + milesPerHour + "\n");
 
         // exercise 1.11
+        //initializing
         double birthPerYear = (365*24*60*60.0)/(7.0);
         double deathPerYear = (365*24*60*60.0)/(13.0);
         double immigrantPerYear = (365*24*60*60.0)/(45.0);
-
+        //Calculating growth
         double growth = (birthPerYear-deathPerYear+immigrantPerYear);
 
 
         double population = 312032486.0;
 
+        //initializing "for loop" to run 6 times and calculate the population each year
+        //+ Printing this out in the console for each year represented
         for(int year = 1; year<6;year++){
             System.out.println("the population for year " + year + " is" + (population+(growth*year)));
         }
@@ -94,8 +100,7 @@ public class Exercises {
 
         System.out.println("\nAvg. Kilometer per hour is = " + kilometersPerHour + " KpH");
 
-        // exercise 1.13
-        //
+
     }
 
 }
